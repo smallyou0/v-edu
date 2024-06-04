@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>v-edu</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body class="bg-f8">
+    <header class="header-sub block">
+      <div class="align triple bg-f8 border-bottom">
+        <a class="btn-back" href="javascript:window.history.back();"></a>
+        <h2>[확률과 통계] 경우의 수</h2>
+        <button class="bg-f8" type="button"><img src="images/ico_close.svg" alt=""></button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="content">
+        <div class="learning-progress mt30">
+          <img  src="images/learning_progress02.svg" alt="">
+        </div>
+        <div class="learning-card mt40">
+          <img src="images/@img_question.svg" alt="">
+        </div>
+        <div class="learning-card mt16">
+          <img src="images/@img_associative_learning.svg" alt="">
+        </div>
+        <div class="pb24">
+          <button class="btn-main-on w100 mt20" type="button" id="btnComplete" onclick="test()">학습 완료</button>
+        </div>
+      
+      </section>
+      <script>
+        function test() {
+            if (!confirm("연관 학습을 마칠까요??")) {
+                alert("아니오, 조금 더 공부할래요.");
+            } else {
+              alert("네, 충분히 공부했어요!");
+              window.location.href = "learning-screen03.html";
+            }
+        }
+    </script>      
+    </main>
+  </body>
+  <!-- <script src="js/button.js"></script> -->
+  <script src="js/navFoot.js"></script>
+</html>

@@ -1,0 +1,19 @@
+<svg width="77" height="77" viewBox="0 0 77 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Component 1" clip-path="url(#clip0_235_77)">
+<g id="Group 1701">
+<rect id="Rectangle 1825" x="-5.99976" y="61.1042" width="89" height="4" fill="#404F65"/>
+<rect id="Rectangle 1827" x="36.2518" y="60.9875" width="38.7439" height="4.49706" transform="rotate(-90 36.2518 60.9875)" fill="#ACB4C1"/>
+<rect id="Rectangle 1826" x="3.00024" y="65.1042" width="71" height="8" fill="#E5EAF1"/>
+<g id="Group 1696">
+<path id="Ellipse 23" d="M54.6552 25.4748C54.6552 34.3963 47.4229 41.6286 38.5014 41.6286C29.5799 41.6286 22.3476 34.3963 22.3476 25.4748C22.3476 16.5533 29.5799 9.32101 38.5014 9.32101C47.4229 9.32101 54.6552 16.5533 54.6552 25.4748Z" fill="white" stroke="#ACB4C1" stroke-width="3.45928"/>
+<ellipse id="Ellipse 24" cx="38.5008" cy="25.4748" rx="3.80498" ry="3.80498" fill="#F66747"/>
+<path id="Polygon 1" d="M30.1301 16.9136L38.9331 22.95L36.1665 25.7167L30.1301 16.9136Z" fill="#F66747"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_235_77">
+<rect width="76.1041" height="76.1041" fill="white" transform="translate(0.448242 0.104126)"/>
+</clipPath>
+</defs>
+</svg>

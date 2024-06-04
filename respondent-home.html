@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>v-edu</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body class="bg-f8">
+    <header class="header">
+      <div>
+        <button type="button" class="bg-white btn-menu"><img src="images/ico_hamburger.svg" alt=""></button>
+        <div class="header__alarm">
+          <a class="btn-alarm" href="#" onclick="alert('준비중입니다')"></a>
+        </div>
+      </div>
+    </header>
+    <div class="layer"></div>
+    <nav class="menu-hamburger mypage-menu">
+      <div class="align both vm border-bottom py14">
+        <div class="profile align vm">
+          <img src="images/@img_profile.png" alt="프로필">
+          <div class="ml8">
+            <div class="text-type4">김베듀</div>
+            <div class="text-type4 fz12 fw400 mt8">고등학생</div> 
+          </div>
+        </div>
+        <a class="link" href="#none" onclick="alert('준비중입니다')">내 정보 수정</a>
+      </div>
+      <button class="btn-main-on w100 mt16" type="button" onclick="location.href='questioner-home.html'">질문자로 전환하기</button>
+      <ul class="mt34">
+        <strong>내 정보 관리</strong>
+        <li>
+          <a href="weighing-confirm-list.php"><i class="ico_question"></i> 내 질문 내역</a>
+        </li>
+        <li>
+          <a href="settlement-management.php"><i class="ico_ann"></i> 즐겨찾기</a>
+        </li>
+        <li>
+          <a href="customer-manage.php"><i class="ico_scribe-info"></i> 학습 통계</a>
+        </li>
+        
+      </ul>
+      <ul class="mt34">
+        <strong>기타</strong>
+        <li>
+          <a href="weighing-confirm-list.php"><i class="ico_term_2"></i> 공지 및 이벤트</a>
+        </li>
+        <li>
+          <a href="settlement-management.php"><i class="ico_allian"></i> 자주 묻는 질문</a>
+        </li>
+        <li>
+          <a href="customer-manage.php"><i class="ico_setting"></i> 앱 설정</a>
+        </li>
+        
+      </ul>
+    </nav>
+    <main class="main">
+      <section class="content">
+        <ul class="tab-type2">
+          <li><a class="btn-tab-type2 active" href="#">답변하기</a></li>
+          <li><a class="btn-tab-type2" onclick="alert('준비중입니다')">커뮤니티</a></li>
+        </ul>
+        <div class="vehicle-management align both vm pt26">
+          <a class="select" href="#none">김베듀님의 리워드</a>
+          <a class="link" href="#none" onclick="alert('준비중입니다')">자세히보기</a>
+        </div>
+        <button class="btn-main-empty w100 mt16 border2 bg-f8" type="button" onclick="alert('준비중입니다')" >102,350P</button>
+ 
+        <div class="text-type4 fz20 mt40">
+          김베듀님의 답변을<br>
+          기다리고 있어요
+        </div>  
+        <div class="align gap16">
+          <div class="align column center card-main mt20 w50 px18 py16 ratio1" onclick="alert('준비중입니다')">
+           <div class="text-type4 fz14">실시간 답변</div>
+           <div class="text-type4 fz12 fw400 mt10">답변을 기다리고 있는<br>
+            질문들이에요</div>
+          </div>
+          <div class="align column center card-main mt20 w50 px18 py16 ratio1" onclick="alert('준비중입니다')">
+            <div class="text-type4 fz14" >과목별 답변</div>
+            <div class="text-type4 fz12 fw400 mt10" >내가 답변 가능한 과목의<br>
+              질문들이에요</div>
+          </div>
+        </div>     
+        <div class="text-type4 fz20 mt40">
+          자신 있는 과목의<br>
+          강의 영상을 올려주세요
+        </div>    
+        <a class="board-link1 align both vm mt16 shadow" href="#none" onclick="alert('준비중입니다')">
+          <div>
+            <strong class="txt-type6">연관 학습 자료</strong>
+            <p class="txt-type7 mt7">과목별, 주제별 노하우가 가득 담긴 영상을 올려주세요.</p>
+          </div>
+        </a>      
+      </section>
+    </main>
+  </body>
+  <!-- <script src="js/button.js"></script> -->
+  <script src="js/navFoot.js"></script>
+  <script>
+    $('.btn-menu').click(function() {
+      $('.menu-hamburger').show();
+      $('.layer').show();
+    });
+    $('.layer').click(function() {
+      $('.menu-hamburger').hide();
+      $('.layer').hide();
+    });
+  </script>
+</html>

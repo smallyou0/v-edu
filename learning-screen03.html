@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>v-edu</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body class="bg-f8">
+    <header class="header-sub block">
+      <div class="align triple bg-f8 border-bottom">
+        <a class="btn-back" href="javascript:window.history.back();"></a>
+        <h2>[확률과 통계] 경우의 수</h2>
+        <button class="bg-f8" type="button"><img src="images/ico_close.svg" alt=""></button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="content">
+        <div class="learning-progress mt30">
+          <img  src="images/learning_progress03.svg" alt="">
+        </div>
+        <div class="text-type4 fz18 txt-center mt36">
+          잘했어요!<br>
+          [확률과 통계] 경우의 수 학습을 마쳤어요.
+        </div>
+        <div class="card-main mt20 px16 py18">
+          <ul class="list-learning">
+            <li class="text-type4 fz13 fw600 ico1">6월의 1번째 학습 완료</li>
+            <li class="text-type4 fz13 fw600 ico1">2024년의 108번째 학습 완료</li>
+            <li class="text-type4 fz13 fw600 ico1">확률과 통계 과목 57번째 학습 완료</li>
+          </ul>
+        </div>
+        <div class="text-type4 fz14 fw500 txt-center mt36">
+          아직 학습하지 않은 내용이 있어요.<br>
+          이어서 학습하러 갈까요?          
+        </div>
+        <div class="align gap18 mt38">
+          <button class="btn-main-empty w100 bg-f8" type="button" onclick="alert('준비중입니다')">목록으로</button>
+          <button class="btn-main-on w100" type="button" onclick="location.href='questioner-home.html'">홈으로</button>
+        </div>
+      </section>
+      <script>
+        function test() {
+            if (!confirm("연관 학습을 마칠까요??")) {
+                alert("아니오, 조금 더 공부할래요.");
+            } else {
+              alert("네, 충분히 공부했어요!");
+              window.location.href = "learning-screen03.html";
+            }
+        }
+    </script>      
+    </main>
+  </body>
+  <!-- <script src="js/button.js"></script> -->
+  <script src="js/navFoot.js"></script>
+</html>
