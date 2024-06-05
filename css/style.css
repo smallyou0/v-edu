@@ -684,12 +684,12 @@ legend,
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  padding: .9rem 1.8rem;
+  padding: 4rem 1.8rem .9rem 1.8rem; 
   background: var(--white);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 5.4rem;
+  /* height: 5.4rem; */
   border-bottom: 1px solid var(--graycf);
 }
 .header .h1 .logo {
@@ -772,12 +772,12 @@ legend,
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  padding: .9rem 1.8rem;
+  padding: 4rem 1.8rem .9rem 1.8rem;
   background: var(--white);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 54px;
+  /* height: 54px; */
   &.border-bottom {
     border-bottom: 1px solid var(--grayeb);
   }
@@ -802,7 +802,7 @@ legend,
 
 /* 메인 */
 .main {
-  padding-top: 5.4rem;
+  padding-top: 7.9rem;
 }
 .main {
   &.pt20 {
