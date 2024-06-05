@@ -546,6 +546,9 @@ legend,
 .pt35 {
   padding-top: 3.5rem;
 }
+.pt40 {
+  padding-top: 4rem !important;
+}
 .pt44 {
   padding-top: 4.4rem;
 }
