@@ -130,11 +130,11 @@
   <script src="js/navFoot.js"></script>
   <script>
     $('.btn-menu').click(function() {
-      $('.menu-hamburger').show();
+      $('.menu-hamburger').addClass('active');
       $('.layer').show();
     });
     $('.layer').click(function() {
-      $('.menu-hamburger').hide();
+      $('.menu-hamburger').removeClass('active');
       $('.layer').hide();
     });
   </script>

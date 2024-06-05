@@ -34,26 +34,26 @@
       <ul class="mt34">
         <strong>내 정보 관리</strong>
         <li>
-          <a href="weighing-confirm-list.php"><i class="ico_question"></i> 내 질문 내역</a>
+          <a href="#none" onclick="alert('준비중입니다')"><i class="ico_question"></i> 내 질문 내역</a>
         </li>
         <li>
-          <a href="settlement-management.php"><i class="ico_ann"></i> 즐겨찾기</a>
+          <a href="#none" onclick="alert('준비중입니다')"><i class="ico_ann"></i> 즐겨찾기</a>
         </li>
         <li>
-          <a href="customer-manage.php"><i class="ico_scribe-info"></i> 학습 통계</a>
+          <a href="#none" onclick="alert('준비중입니다')"><i class="ico_scribe-info"></i> 학습 통계</a>
         </li>
         
       </ul>
       <ul class="mt34">
         <strong>기타</strong>
         <li>
-          <a href="weighing-confirm-list.php"><i class="ico_term_2"></i> 공지 및 이벤트</a>
+          <a href="#none" onclick="alert('준비중입니다')"><i class="ico_term_2"></i> 공지 및 이벤트</a>
         </li>
         <li>
-          <a href="settlement-management.php"><i class="ico_allian"></i> 자주 묻는 질문</a>
+          <a href="#none" onclick="alert('준비중입니다')"><i class="ico_allian"></i> 자주 묻는 질문</a>
         </li>
         <li>
-          <a href="customer-manage.php"><i class="ico_setting"></i> 앱 설정</a>
+          <a href="#none" onclick="alert('준비중입니다')"><i class="ico_setting"></i> 앱 설정</a>
         </li>
         
       </ul>
@@ -103,11 +103,11 @@
   <script src="js/navFoot.js"></script>
   <script>
     $('.btn-menu').click(function() {
-      $('.menu-hamburger').show();
+      $('.menu-hamburger').addClass('active');
       $('.layer').show();
     });
     $('.layer').click(function() {
-      $('.menu-hamburger').hide();
+      $('.menu-hamburger').removeClass('active');
       $('.layer').hide();
     });
   </script>
